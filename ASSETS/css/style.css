@@ -1,30 +1,125 @@
+/* Cuerpo con fuentes solicitadas*/
 body {
-    font-family: 'Raleway';
-    color: #ffffff;
+  font-family: "Raleway", "Open Sans";
+  color:white;
+  background-color: #000000;
+ 
+ }
+ 
+ .navbar {
+  background-color: transparent !important;
+  color: #ffffff;
 }
 
+.bg-transparent {
+  background-color: #16a2b7;
+  transition: all 2s ease;
+ }
 
-.carousel-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden; 
-    z-index: 2; 
+.h1 {
+  font-family: "Raleway";
+  font-size: 400;
 }
 
-.bg-black {
-    background-color: black;
+.container_header{
+  margin-left: 0;
+  margin-right: 0;
+} 
 
+.carousel-item {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-h4 {
-    text-transform: uppercase;
+.container_h1 {
+  margin-left: 0;
+  margin-right: 0;
+} 
 
+.hr_linea {
+  background-color: #16a2b7;
+  height: 0.1px;
+  opacity: 0.3;
+}
+
+.card0 {
+  background-color: #000000;
+}
+
+.card-body01 {
+  background-color: #16a2b7;  
+  padding:0;
 }
 
 .fa-iconos {
-    color: white;
-    width: 2em;
+  font-size: 2em;
+  color: #fff;
 }
+
+.card-body02 {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.card-body00 { 
+  background-color: #ffffff;  
+  margin-top: 1.5em;
+}
+
+.card-body03 {
+  background-color: #16a2b7;  
+  color: white;
+  text-align: left;
+  height: 17em;
+  padding: 0.5em;
+}
+
+.card-imagen {
+  height: 140px;
+}
+
+
+.piedepagina {
+  background-color: #16a2b7;
+}
+
+footer {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #16a2b7;
+  font-family: "Raleway";
+  font-size: 400;
+  position: absolute;
+  width: 100%;
+  padding: 2px;
+}
+
+.btn {
+  
+  color: #16a2b7;  
+  background-color: #ffffff;
+}
+
+.btn-info {
+  background-color: #16a2b7;
+  color: #ffffff;
+  margin: auto;  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Agrega un retraso de 0.5 segundos al smooth scroll */
+a[href^="#"] {
+  transition: scroll 0.5s ease-in-out;
+}
+
+
+  
